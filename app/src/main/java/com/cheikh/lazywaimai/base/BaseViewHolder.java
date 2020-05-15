@@ -1,12 +1,15 @@
 package com.cheikh.lazywaimai.base;
 
-import android.support.annotation.ColorInt;
-import android.support.annotation.ColorRes;
-import android.support.annotation.StringRes;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import butterknife.ButterKnife;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
+import androidx.annotation.StringRes;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.cheikh.lazywaimai.util.ViewEventListener;
+
+import butterknife.ButterKnife;
 
 /**
  * author：cheikh.wang on 16/10/21 23:33

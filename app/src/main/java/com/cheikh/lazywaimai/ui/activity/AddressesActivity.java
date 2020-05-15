@@ -3,14 +3,13 @@ package com.cheikh.lazywaimai.ui.activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
-import java.util.List;
-import butterknife.BindView;
-import butterknife.OnClick;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseActivity;
 import com.cheikh.lazywaimai.base.BaseController;
@@ -18,14 +17,20 @@ import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.AddressController;
 import com.cheikh.lazywaimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.adapter.AddressListAdapter;
-import com.cheikh.lazywaimai.util.ViewEventListener;
+import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.ToastUtil;
+import com.cheikh.lazywaimai.util.ViewEventListener;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.refresh.OnRefreshListener;
 import com.cheikh.lazywaimai.widget.refresh.RefreshLayout;
+
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.OnClick;
+
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_ADDRESS_CLICKED;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_DELETE_BTN_CLICKED;
 import static com.cheikh.lazywaimai.util.Constants.ClickType.CLICK_TYPE_EDIT_BTN_CLICKED;

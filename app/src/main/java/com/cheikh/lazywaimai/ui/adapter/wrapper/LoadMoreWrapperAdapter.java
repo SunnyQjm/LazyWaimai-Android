@@ -1,8 +1,10 @@
 package com.cheikh.lazywaimai.ui.adapter.wrapper;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseAdapter;
 import com.cheikh.lazywaimai.base.BaseWrapperAdapter;

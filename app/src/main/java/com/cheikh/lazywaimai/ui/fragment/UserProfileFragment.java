@@ -5,9 +5,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.View;
+
+import androidx.appcompat.app.AlertDialog;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseController;
 import com.cheikh.lazywaimai.base.BaseFragment;
@@ -27,9 +29,11 @@ import com.cheikh.lazywaimai.widget.section.SectionTextItemView;
 import com.jph.takephoto.app.TakePhoto;
 import com.jph.takephoto.app.TakePhotoImpl;
 import com.jph.takephoto.model.CropOptions;
+
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 import butterknife.BindView;
 import butterknife.OnClick;
 

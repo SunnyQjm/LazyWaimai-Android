@@ -2,14 +2,13 @@ package com.cheikh.lazywaimai.ui.adapter;
 
 import android.app.Activity;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.List;
+import androidx.appcompat.app.AlertDialog;
 
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.ShoppingCart;
@@ -20,6 +19,9 @@ import com.cheikh.lazywaimai.util.StringFetcher;
 import com.cheikh.lazywaimai.widget.PicassoImageView;
 import com.cheikh.lazywaimai.widget.ProperRatingBar;
 import com.cheikh.lazywaimai.widget.ShoppingCountView;
+
+import java.util.List;
+
 import za.co.immedia.pinnedheaderlistview.SectionedBaseAdapter;
 
 public class ProductItemAdapter extends SectionedBaseAdapter {

@@ -3,15 +3,18 @@ package com.cheikh.lazywaimai.base;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.v7.widget.Toolbar;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.appcompat.widget.Toolbar;
+
+import com.cheikh.lazywaimai.R;
+import com.cheikh.lazywaimai.ui.Display;
+import com.cheikh.lazywaimai.util.ContentView;
+import com.cheikh.lazywaimai.widget.LoadingDialog;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.widget.LoadingDialog;
 
 /**
  * author: cheikh.wang on 17/1/5

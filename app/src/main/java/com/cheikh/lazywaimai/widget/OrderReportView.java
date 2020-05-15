@@ -1,7 +1,6 @@
 package com.cheikh.lazywaimai.widget;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,10 +8,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.List;
+import androidx.recyclerview.widget.RecyclerView;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.bean.Business;
 import com.cheikh.lazywaimai.model.bean.CartInfo;
@@ -23,6 +20,11 @@ import com.cheikh.lazywaimai.ui.adapter.ShoppingProductListAdapter;
 import com.cheikh.lazywaimai.ui.fragment.BusinessNameClickHandle;
 import com.cheikh.lazywaimai.util.CollectionUtil;
 import com.cheikh.lazywaimai.util.StringFetcher;
+
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class OrderReportView extends FrameLayout {
 

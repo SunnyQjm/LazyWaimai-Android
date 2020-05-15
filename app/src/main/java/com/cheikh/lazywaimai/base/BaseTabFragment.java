@@ -1,17 +1,20 @@
 package com.cheikh.lazywaimai.base;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import java.util.ArrayList;
-import java.util.List;
-import butterknife.BindView;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.base.BaseFragment;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.SlidingTabLayout;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
 
 @ContentView(R.layout.fragment_viewpager)
 public abstract class BaseTabFragment<UC> extends BaseFragment<UC> {

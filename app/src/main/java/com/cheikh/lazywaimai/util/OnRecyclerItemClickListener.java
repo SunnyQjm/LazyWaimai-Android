@@ -1,10 +1,11 @@
 package com.cheikh.lazywaimai.util;
 
-import android.support.v4.view.GestureDetectorCompat;
-import android.support.v7.widget.RecyclerView;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+
+import androidx.core.view.GestureDetectorCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * author：cheikh.wang on 2016/10/31 15:44

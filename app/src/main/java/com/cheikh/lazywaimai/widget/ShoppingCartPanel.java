@@ -2,24 +2,26 @@ package com.cheikh.lazywaimai.widget;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.cheikh.lazywaimai.R;
+import com.cheikh.lazywaimai.model.ShoppingCart;
+import com.cheikh.lazywaimai.model.bean.ShoppingEntity;
+import com.cheikh.lazywaimai.ui.adapter.ShoppingCartListAdapter;
+
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.cheikh.lazywaimai.R;
-import com.cheikh.lazywaimai.model.ShoppingCart;
-import com.cheikh.lazywaimai.model.bean.ShoppingEntity;
-import com.cheikh.lazywaimai.ui.adapter.ShoppingCartListAdapter;
 
 /**
  * 购物车面板

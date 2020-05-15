@@ -2,10 +2,11 @@ package com.cheikh.lazywaimai.widget;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.support.annotation.StringRes;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.annotation.StringRes;
 
 import com.cheikh.lazywaimai.R;
 

@@ -2,28 +2,31 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import butterknife.BindView;
-import butterknife.OnClick;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseActivity;
 import com.cheikh.lazywaimai.base.BaseController;
-import com.cheikh.lazywaimai.base.BaseViewHolder;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.OrderController;
 import com.cheikh.lazywaimai.model.bean.Order;
 import com.cheikh.lazywaimai.model.bean.PaymentPlatform;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
+import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.adapter.PlatformListAdapter;
 import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.util.ViewEventListener;
+
 import java.util.List;
+
+import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * author: cheikh.wang on 17/1/5

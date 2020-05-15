@@ -1,10 +1,11 @@
 package com.cheikh.lazywaimai.module.qualifiers;
 
-import android.support.annotation.IntDef;
 
-import java.lang.annotation.Retention;
+import androidx.annotation.IntDef;
 
 import com.cheikh.lazywaimai.util.Constants;
+
+import java.lang.annotation.Retention;
 
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 

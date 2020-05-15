@@ -1,19 +1,22 @@
 package com.cheikh.lazywaimai.base;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import butterknife.BindView;
-import butterknife.ButterKnife;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.widget.LoadingDialog;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * author: cheikh.wang on 16/11/23

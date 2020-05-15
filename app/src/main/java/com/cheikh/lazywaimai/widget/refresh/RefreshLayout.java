@@ -2,10 +2,6 @@ package com.cheikh.lazywaimai.widget.refresh;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPropertyAnimatorCompat;
-import android.support.v4.view.ViewPropertyAnimatorUpdateListener;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.MotionEvent;
@@ -16,6 +12,11 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.AbsListView;
 import android.widget.FrameLayout;
 import android.widget.ScrollView;
+
+import androidx.core.view.ViewCompat;
+import androidx.core.view.ViewPropertyAnimatorCompat;
+import androidx.core.view.ViewPropertyAnimatorUpdateListener;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class RefreshLayout extends FrameLayout {
 

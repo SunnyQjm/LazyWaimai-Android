@@ -1,21 +1,25 @@
 package com.cheikh.lazywaimai.base;
 
 import android.os.Bundle;
-import android.support.annotation.DrawableRes;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import java.util.List;
-import butterknife.BindView;
+
+import androidx.annotation.DrawableRes;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ContentView;
-import com.cheikh.lazywaimai.util.ViewEventListener;
 import com.cheikh.lazywaimai.ui.adapter.wrapper.LoadMoreWrapperAdapter;
+import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.ToastUtil;
+import com.cheikh.lazywaimai.util.ViewEventListener;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.refresh.OnRefreshListener;
 import com.cheikh.lazywaimai.widget.refresh.RefreshLayout;
+
+import java.util.List;
+
+import butterknife.BindView;
 
 @ContentView(R.layout.fragment_recyclerview)
 public abstract class BaseListFragment<T, UC> extends BaseFragment<UC>

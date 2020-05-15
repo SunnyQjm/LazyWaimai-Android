@@ -2,11 +2,6 @@ package com.cheikh.lazywaimai.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IntDef;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,9 +9,17 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.IntDef;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+
+import com.cheikh.lazywaimai.R;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import com.cheikh.lazywaimai.R;
 
 /**
  * 一个提供多种状态切换显示的 layout 组件

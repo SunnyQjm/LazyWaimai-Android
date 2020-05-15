@@ -2,29 +2,27 @@ package com.cheikh.lazywaimai.ui;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import com.cheikh.lazywaimai.model.bean.Order;
-import com.cheikh.lazywaimai.ui.activity.FavoritesActivity;
-import com.cheikh.lazywaimai.ui.activity.FeedbackActivity;
-import com.cheikh.lazywaimai.ui.activity.RemarkActivity;
-import com.cheikh.lazywaimai.ui.fragment.SetNicknameFragment;
-import com.cheikh.lazywaimai.ui.fragment.SetUsernameFragment;
-import com.cheikh.lazywaimai.ui.fragment.UserProfileFragment;
-import com.google.common.base.Preconditions;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NavUtils;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.model.bean.Address;
 import com.cheikh.lazywaimai.model.bean.Business;
+import com.cheikh.lazywaimai.model.bean.Order;
 import com.cheikh.lazywaimai.ui.activity.AddressesActivity;
 import com.cheikh.lazywaimai.ui.activity.BusinessActivity;
+import com.cheikh.lazywaimai.ui.activity.FavoritesActivity;
+import com.cheikh.lazywaimai.ui.activity.FeedbackActivity;
 import com.cheikh.lazywaimai.ui.activity.LoginActivity;
 import com.cheikh.lazywaimai.ui.activity.MainActivity;
 import com.cheikh.lazywaimai.ui.activity.OrderDetailActivity;
 import com.cheikh.lazywaimai.ui.activity.PaymentActivity;
 import com.cheikh.lazywaimai.ui.activity.RegisterActivity;
+import com.cheikh.lazywaimai.ui.activity.RemarkActivity;
 import com.cheikh.lazywaimai.ui.activity.SettingActivity;
 import com.cheikh.lazywaimai.ui.activity.SettleActivity;
 import com.cheikh.lazywaimai.ui.activity.UpdateAddressActivity;
@@ -32,8 +30,12 @@ import com.cheikh.lazywaimai.ui.activity.UserProfileActivity;
 import com.cheikh.lazywaimai.ui.fragment.RegisterFirstStepFragment;
 import com.cheikh.lazywaimai.ui.fragment.RegisterSecondStepFragment;
 import com.cheikh.lazywaimai.ui.fragment.RegisterThirdStepFragment;
+import com.cheikh.lazywaimai.ui.fragment.SetNicknameFragment;
+import com.cheikh.lazywaimai.ui.fragment.SetUsernameFragment;
+import com.cheikh.lazywaimai.ui.fragment.UserProfileFragment;
 import com.cheikh.lazywaimai.util.MainTab;
 import com.cheikh.lazywaimai.util.RegisterStep;
+import com.google.common.base.Preconditions;
 
 public class Display {
 

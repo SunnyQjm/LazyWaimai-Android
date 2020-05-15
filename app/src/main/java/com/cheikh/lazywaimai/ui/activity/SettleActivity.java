@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import butterknife.BindView;
-import butterknife.OnClick;
+
+import androidx.appcompat.app.AlertDialog;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseActivity;
 import com.cheikh.lazywaimai.base.BaseController;
@@ -23,12 +23,15 @@ import com.cheikh.lazywaimai.model.bean.PayMethod;
 import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.model.bean.SettleResult;
 import com.cheikh.lazywaimai.ui.Display;
-import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.adapter.SendTimeListAdapter;
+import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.widget.AddressView;
 import com.cheikh.lazywaimai.widget.MultiStateView;
 import com.cheikh.lazywaimai.widget.OrderReportView;
+
+import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * author: cheikh.wang on 17/1/5

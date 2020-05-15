@@ -2,24 +2,27 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuItem;
-import com.cheikh.lazywaimai.model.bean.ResponseError;
-import com.cheikh.lazywaimai.util.ToastUtil;
-import com.google.common.base.Preconditions;
-import java.util.ArrayList;
+
+import androidx.fragment.app.Fragment;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseController;
 import com.cheikh.lazywaimai.base.BaseTabActivity;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.BusinessController;
 import com.cheikh.lazywaimai.model.bean.Business;
+import com.cheikh.lazywaimai.model.bean.ResponseError;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.fragment.BusinessDetailFragment;
 import com.cheikh.lazywaimai.ui.fragment.CommentFragment;
 import com.cheikh.lazywaimai.ui.fragment.ProductFragment;
 import com.cheikh.lazywaimai.util.StringFetcher;
+import com.cheikh.lazywaimai.util.ToastUtil;
+import com.google.common.base.Preconditions;
+
+import java.util.ArrayList;
 
 /**
  * author: cheikh.wang on 17/1/5

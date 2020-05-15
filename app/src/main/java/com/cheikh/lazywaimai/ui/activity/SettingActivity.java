@@ -2,22 +2,25 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.TextView;
-import butterknife.BindView;
-import butterknife.OnClick;
+
+import androidx.appcompat.app.AlertDialog;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseActivity;
 import com.cheikh.lazywaimai.base.BaseController;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.context.AppCookie;
 import com.cheikh.lazywaimai.controller.UserController;
-import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
+import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.SystemUtil;
 import com.cheikh.lazywaimai.util.ToastUtil;
 import com.cheikh.lazywaimai.widget.section.SectionTextItemView;
+
+import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * author: cheikh.wang on 17/1/5

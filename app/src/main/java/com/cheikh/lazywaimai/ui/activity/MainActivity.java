@@ -2,31 +2,34 @@ package com.cheikh.lazywaimai.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.ogaclejapan.smarttablayout.SmartTabLayout;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
-import butterknife.BindView;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.cheikh.lazywaimai.R;
 import com.cheikh.lazywaimai.base.BaseActivity;
 import com.cheikh.lazywaimai.base.BaseController;
 import com.cheikh.lazywaimai.context.AppContext;
 import com.cheikh.lazywaimai.controller.MainController;
-import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.ui.Display;
 import com.cheikh.lazywaimai.ui.fragment.OrdersFragment;
 import com.cheikh.lazywaimai.ui.fragment.ShopFragment;
 import com.cheikh.lazywaimai.ui.fragment.UserCenterFragment;
 import com.cheikh.lazywaimai.util.ActivityStack;
+import com.cheikh.lazywaimai.util.ContentView;
 import com.cheikh.lazywaimai.util.DoubleExitUtil;
 import com.cheikh.lazywaimai.util.MainTab;
+import com.ogaclejapan.smarttablayout.SmartTabLayout;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
+
+import butterknife.BindView;
 
 /**
  * author：cheikh on 16/5/9 15:02

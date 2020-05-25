@@ -274,7 +274,7 @@
                 android:background="@color/white"
                 >
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_submit_order"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
